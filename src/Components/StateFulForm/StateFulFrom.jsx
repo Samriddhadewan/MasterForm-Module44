@@ -48,9 +48,10 @@ const StateFulFrom = () => {
             <input onChange={handlePassword} type="password" name="password" id="" />
             <br />
             <input type="submit" value="Submit" />
+            <br />
 
             {
-                error && <p> {error} </p>
+                error && <b> {error} </b>
             }
         </form>
         
